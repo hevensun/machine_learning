@@ -1,0 +1,222 @@
+DEBUG:jieba:Building prefix dict from the default dictionary ...
+DEBUG:jieba:Loading model from cache C:\Users\11112877\AppData\Local\Temp\jieba.cache
+DEBUG:jieba:Loading model cost 0.615 seconds.
+DEBUG:jieba:Prefix dict has been built succesfully.
+INFO:root:Initializing docs len distribution {'0': 40, '1': 37, '2': 6}.
+INFO:root:Now docs maintain {0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错'}.
+INFO:root:Now docs maintain {0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加'}.
+INFO:root:Now docs maintain {0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加'}.
+DEBUG:jieba:Building prefix dict from the default dictionary ...
+DEBUG:jieba:Loading model from cache C:\Users\11112877\AppData\Local\Temp\jieba.cache
+DEBUG:jieba:Loading model cost 0.643 seconds.
+DEBUG:jieba:Prefix dict has been built succesfully.
+INFO:root:Initializing docs len distribution {'0': 40, '1': 37, '2': 6}.
+INFO:root:target to 这个对news.txt文本的编码有要求吗?我的运行完是0.0一直到结尾, will delete from ['0', '1'].
+INFO:root:target to 这个对news.txt文本的编码有要求吗?我的运行完是0.0一直到结尾, will add 0.
+INFO:root:target to 这个对news.txt文本的编码有要求吗?我的运行完是0.0一直到结尾, Now docs maintain {0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错'}.
+INFO:root:target to 如果有机会赢，一定参加, will add 4.
+INFO:root:target to 如果有机会赢，一定参加, Now docs maintain {0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加'}.
+INFO:root:target to 如果有机会，一定参加, will delete from ['4'].
+INFO:root:target to 如果有机会，一定参加, will add 4.
+INFO:root:target to 如果有机会，一定参加, Now docs maintain {0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加'}.
+DEBUG:jieba:Building prefix dict from the default dictionary ...
+DEBUG:jieba:Loading model from cache C:\Users\11112877\AppData\Local\Temp\jieba.cache
+DEBUG:jieba:Loading model cost 0.626 seconds.
+DEBUG:jieba:Prefix dict has been built succesfully.
+INFO:root:Initializing docs len distribution {'0': 40, '1': 37, '2': 6}.
+INFO:root:target to 这个对news.txt文本的编码有要求吗?我的运行完是0.0一直到结尾, will delete from index:['0', '1'].
+INFO:root:target to 这个对news.txt文本的编码有要求吗?我的运行完是0.0一直到结尾, will add index:0.
+INFO:root:target to 这个对news.txt文本的编码有要求吗?我的运行完是0.0一直到结尾, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错'}.
+INFO:root:target to 如果有机会赢，一定参加, will add index:4.
+INFO:root:target to 如果有机会赢，一定参加, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加'}.
+INFO:root:target to 如果有机会，一定参加, will delete from index:['4'].
+INFO:root:target to 如果有机会，一定参加, will add index:4.
+INFO:root:target to 如果有机会，一定参加, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加'}.
+DEBUG:jieba:Building prefix dict from the default dictionary ...
+DEBUG:jieba:Loading model from cache C:\Users\11112877\AppData\Local\Temp\jieba.cache
+DEBUG:jieba:Loading model cost 0.626 seconds.
+DEBUG:jieba:Prefix dict has been built succesfully.
+INFO:root:Initializing docs len distribution {'0': 40, '1': 37, '2': 6}.
+INFO:root:target to 这个对news.txt文本的编码有要求吗?我的运行完是0.0一直到结尾, will delete from index:['1', '0'].
+INFO:root:target to 0, will add index:0.
+INFO:root:target to 0, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错'}.
+INFO:root:target to 4, will add index:4.
+INFO:root:target to 4, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加'}.
+INFO:root:target to 如果有机会，一定参加, will delete from index:['4'].
+INFO:root:target to 4, will add index:4.
+INFO:root:target to 4, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加'}.
+DEBUG:jieba:Building prefix dict from the default dictionary ...
+DEBUG:jieba:Loading model from cache C:\Users\11112877\AppData\Local\Temp\jieba.cache
+DEBUG:jieba:Loading model cost 0.629 seconds.
+DEBUG:jieba:Prefix dict has been built succesfully.
+INFO:root:Initializing docs len distribution {'0': 40, '1': 37, '2': 6}.
+INFO:root:target to 3, will delete from index:['1', '0'].
+INFO:root:target to 0, will add index:0.
+INFO:root:target to 0, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错'}.
+INFO:root:target to 4, will add index:4.
+INFO:root:target to 4, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加'}.
+INFO:root:target to 5, will delete from index:['4'].
+INFO:root:target to 4, will add index:4.
+INFO:root:target to 4, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加'}.
+DEBUG:jieba:Building prefix dict from the default dictionary ...
+DEBUG:jieba:Loading model from cache C:\Users\11112877\AppData\Local\Temp\jieba.cache
+DEBUG:jieba:Loading model cost 0.738 seconds.
+DEBUG:jieba:Prefix dict has been built succesfully.
+INFO:root:Initializing docs len distribution {'0': 40, '1': 37, '2': 6}.
+INFO:root:target to 3, will delete from index:['1', '0'].
+INFO:root:target to 0, will add index:0.
+INFO:root:target to 0, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错'}.
+INFO:root:target to 4, will add index:4.
+INFO:root:target to 4, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加'}.
+INFO:root:target to 5, will delete from index:['4'].
+INFO:root:target to 4, will add index:4.
+INFO:root:target to 4, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加'}.
+2020-01-17 09:44:10,176 - DEBUG - Building prefix dict from the default dictionary ...
+2020-01-17 09:44:10,177 - DEBUG - Loading model from cache C:\Users\11112877\AppData\Local\Temp\jieba.cache
+2020-01-17 09:44:10,792 - DEBUG - Loading model cost 0.616 seconds.
+2020-01-17 09:44:10,792 - DEBUG - Prefix dict has been built succesfully.
+2020-01-17 09:44:10,793 - INFO - Initializing docs len distribution {'0': 40, '1': 37, '2': 6}.
+2020-01-17 09:44:10,794 - INFO - target to 3, will delete from index:['0', '1'].
+2020-01-17 09:44:10,794 - INFO - target to 0, will add index:0.
+2020-01-17 09:44:10,794 - INFO - target to 0, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错'}.
+2020-01-17 09:44:10,795 - INFO - target to 4, will add index:4.
+2020-01-17 09:44:10,795 - INFO - target to 4, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加'}.
+2020-01-17 09:44:10,795 - INFO - target to 5, will delete from index:['4'].
+2020-01-17 09:44:10,795 - INFO - target to 4, will add index:4.
+2020-01-17 09:44:10,795 - INFO - target to 4, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加'}.
+2020-01-17 10:07:31,729 - DEBUG - Building prefix dict from the default dictionary ...
+2020-01-17 10:07:31,731 - DEBUG - Loading model from cache C:\Users\11112877\AppData\Local\Temp\jieba.cache
+2020-01-17 10:07:32,342 - DEBUG - Loading model cost 0.613 seconds.
+2020-01-17 10:07:32,342 - DEBUG - Prefix dict has been built succesfully.
+2020-01-17 10:07:32,343 - INFO - Initializing docs len distribution {'0': 40, '1': 37, '2': 6}.
+2020-01-17 10:07:32,343 - INFO - target to 3, will delete from index:['0', '1'].
+2020-01-17 10:07:32,344 - INFO - target to 0, will add index:0.
+2020-01-17 10:07:32,344 - INFO - target to 0, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错'}.
+2020-01-17 10:07:32,344 - INFO - target to 4, will add index:4.
+2020-01-17 10:07:32,344 - INFO - target to 4, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加'}.
+2020-01-17 10:07:32,344 - INFO - target to 5, will delete from index:['4'].
+2020-01-17 10:07:32,344 - INFO - target to 4, will add index:4.
+2020-01-17 10:07:32,344 - INFO - target to 4, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加'}.
+2020-01-17 12:02:00,851 - DEBUG - Building prefix dict from the default dictionary ...
+2020-01-17 12:02:00,853 - DEBUG - Loading model from cache C:\Users\11112877\AppData\Local\Temp\jieba.cache
+2020-01-17 12:02:01,467 - DEBUG - Loading model cost 0.616 seconds.
+2020-01-17 12:02:01,467 - DEBUG - Prefix dict has been built succesfully.
+2020-01-17 12:02:01,468 - INFO - Initializing docs len distribution {'0': 40, '1': 37, '2': 6}.
+2020-01-17 12:02:01,469 - INFO - target to 3, will delete from index:['1', '0'].
+2020-01-17 12:02:01,469 - INFO - target to 0, will add index:0.
+2020-01-17 12:02:01,469 - INFO - target to 0, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错'}.
+2020-01-17 12:02:01,470 - INFO - target to 4, will add index:4.
+2020-01-17 12:02:01,470 - INFO - target to 4, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加'}.
+2020-01-17 12:02:01,470 - INFO - target to 5, will delete from index:['4'].
+2020-01-17 12:02:01,470 - INFO - target to 4, will add index:4.
+2020-01-17 12:02:01,470 - INFO - target to 4, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加'}.
+2020-01-17 12:02:28,794 - DEBUG - Building prefix dict from the default dictionary ...
+2020-01-17 12:02:28,796 - DEBUG - Loading model from cache C:\Users\11112877\AppData\Local\Temp\jieba.cache
+2020-01-17 12:02:29,417 - DEBUG - Loading model cost 0.622 seconds.
+2020-01-17 12:02:29,417 - DEBUG - Prefix dict has been built succesfully.
+2020-01-17 12:02:29,418 - INFO - Initializing docs len distribution {'0': 40, '1': 37, '2': 6}.
+2020-01-17 12:02:29,418 - INFO - target to 3, will delete from index:['1', '0'].
+2020-01-17 12:02:29,419 - INFO - target to 0, will add index:0.
+2020-01-17 12:02:29,419 - INFO - target to 0, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错'}.
+2020-01-17 12:02:29,419 - INFO - target to 4, will add index:4.
+2020-01-17 12:02:29,419 - INFO - target to 4, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加'}.
+2020-01-17 12:02:29,420 - INFO - target to 5, will add index:5.
+2020-01-17 12:02:29,420 - INFO - target to 5, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加', 5: '您好，已经给您安排简历评估了'}.
+2020-01-17 12:02:52,505 - DEBUG - Building prefix dict from the default dictionary ...
+2020-01-17 12:02:52,506 - DEBUG - Loading model from cache C:\Users\11112877\AppData\Local\Temp\jieba.cache
+2020-01-17 12:02:53,119 - DEBUG - Loading model cost 0.614 seconds.
+2020-01-17 12:02:53,119 - DEBUG - Prefix dict has been built succesfully.
+2020-01-17 12:02:53,120 - INFO - Initializing docs len distribution {'0': 40, '1': 37, '2': 6}.
+2020-01-17 12:02:53,120 - INFO - target to 3, will delete from index:['1', '0'].
+2020-01-17 12:02:53,121 - INFO - target to 0, will add index:0.
+2020-01-17 12:02:53,121 - INFO - target to 0, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错'}.
+2020-01-17 12:02:53,121 - INFO - target to 4, will add index:4.
+2020-01-17 12:02:53,121 - INFO - target to 4, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加'}.
+2020-01-17 12:02:53,122 - INFO - target to 5, will add index:5.
+2020-01-17 12:02:53,122 - INFO - target to 5, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加', 5: '您好，已经给您安排简历评估了'}.
+2020-01-17 12:04:05,947 - DEBUG - Building prefix dict from the default dictionary ...
+2020-01-17 12:04:05,948 - DEBUG - Loading model from cache C:\Users\11112877\AppData\Local\Temp\jieba.cache
+2020-01-17 12:04:06,563 - DEBUG - Loading model cost 0.615 seconds.
+2020-01-17 12:04:06,563 - DEBUG - Prefix dict has been built succesfully.
+2020-01-17 12:04:06,564 - INFO - Initializing docs len distribution {'0': 40, '1': 37, '2': 6}.
+2020-01-17 12:04:06,564 - INFO - target to 3, will delete from index:['0', '1'].
+2020-01-17 12:04:06,565 - INFO - target to 0, will add index:0.
+2020-01-17 12:04:06,565 - INFO - target to 0, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错'}.
+2020-01-17 12:04:06,565 - INFO - target to 4, will add index:4.
+2020-01-17 12:04:06,565 - INFO - target to 4, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加'}.
+2020-01-17 12:04:06,565 - INFO - target to 5, will delete from index:['4'].
+2020-01-17 12:04:06,566 - INFO - target to 4, will add index:4.
+2020-01-17 12:04:06,566 - INFO - target to 4, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加'}.
+2020-01-17 12:04:48,257 - INFO - Initializing docs len distribution {'0': 0}.
+2020-01-17 12:04:48,257 - DEBUG - Building prefix dict from the default dictionary ...
+2020-01-17 12:04:48,259 - DEBUG - Loading model from cache C:\Users\11112877\AppData\Local\Temp\jieba.cache
+2020-01-17 12:04:48,867 - DEBUG - Loading model cost 0.609 seconds.
+2020-01-17 12:04:48,867 - DEBUG - Prefix dict has been built succesfully.
+2020-01-17 12:04:48,868 - INFO - target to 1, will add index:1.
+2020-01-17 12:04:48,868 - INFO - target to 1, Now docs maintain index:{0: '', 1: '这个对news.txt文本的编码有要求吗?我的运行完是0.0一直到结尾'}.
+2020-01-17 12:04:48,868 - INFO - target to 2, will add index:2.
+2020-01-17 12:04:48,868 - INFO - target to 2, Now docs maintain index:{0: '', 1: '这个对news.txt文本的编码有要求吗?我的运行完是0.0一直到结尾', 2: '如果有机会赢，一定参加'}.
+2020-01-17 12:04:48,868 - INFO - target to 3, will delete from index:['2'].
+2020-01-17 12:04:48,869 - INFO - target to 2, will add index:2.
+2020-01-17 12:04:48,869 - INFO - target to 2, Now docs maintain index:{0: '', 1: '这个对news.txt文本的编码有要求吗?我的运行完是0.0一直到结尾', 2: '如果有机会赢，一定参加'}.
+2020-01-17 12:05:14,885 - INFO - Initializing docs len distribution {'0': 0}.
+2020-01-17 12:05:14,886 - DEBUG - Building prefix dict from the default dictionary ...
+2020-01-17 12:05:14,887 - DEBUG - Loading model from cache C:\Users\11112877\AppData\Local\Temp\jieba.cache
+2020-01-17 12:05:15,505 - DEBUG - Loading model cost 0.618 seconds.
+2020-01-17 12:05:15,505 - DEBUG - Prefix dict has been built succesfully.
+2020-01-17 12:05:15,505 - INFO - target to 1, will add index:1.
+2020-01-17 12:05:15,505 - INFO - target to 1, Now docs maintain index:{0: '', 1: '这个对news.txt文本的编码有要求吗?我的运行完是0.0一直到结尾'}.
+2020-01-17 12:05:15,506 - INFO - target to 2, will add index:2.
+2020-01-17 12:05:15,506 - INFO - target to 2, Now docs maintain index:{0: '', 1: '这个对news.txt文本的编码有要求吗?我的运行完是0.0一直到结尾', 2: '如果有机会赢，一定参加'}.
+2020-01-17 12:05:15,506 - INFO - target to 3, will add index:3.
+2020-01-17 12:05:15,506 - INFO - target to 3, Now docs maintain index:{0: '', 1: '这个对news.txt文本的编码有要求吗?我的运行完是0.0一直到结尾', 2: '如果有机会赢，一定参加', 3: '您好，已经给您安排简历评估了'}.
+2020-01-17 12:05:38,155 - DEBUG - Building prefix dict from the default dictionary ...
+2020-01-17 12:05:38,156 - DEBUG - Loading model from cache C:\Users\11112877\AppData\Local\Temp\jieba.cache
+2020-01-17 12:05:38,778 - DEBUG - Loading model cost 0.623 seconds.
+2020-01-17 12:05:38,778 - DEBUG - Prefix dict has been built succesfully.
+2020-01-17 12:05:38,779 - INFO - Initializing docs len distribution {'0': 40, '1': 37, '2': 6}.
+2020-01-17 12:05:38,779 - INFO - target to 3, will delete from index:['0', '1'].
+2020-01-17 12:05:38,780 - INFO - target to 0, will add index:0.
+2020-01-17 12:05:38,780 - INFO - target to 0, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错'}.
+2020-01-17 12:05:38,780 - INFO - target to 4, will add index:4.
+2020-01-17 12:05:38,780 - INFO - target to 4, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加'}.
+2020-01-17 12:05:38,780 - INFO - target to 5, will add index:5.
+2020-01-17 12:05:38,780 - INFO - target to 5, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加', 5: '您好，已经给您安排简历评估了'}.
+2020-01-17 12:06:27,104 - DEBUG - Building prefix dict from the default dictionary ...
+2020-01-17 12:06:27,106 - DEBUG - Loading model from cache C:\Users\11112877\AppData\Local\Temp\jieba.cache
+2020-01-17 12:06:27,720 - DEBUG - Loading model cost 0.616 seconds.
+2020-01-17 12:06:27,720 - DEBUG - Prefix dict has been built succesfully.
+2020-01-17 12:06:27,721 - INFO - Initializing docs len distribution {'0': 40, '1': 37, '2': 6}.
+2020-01-17 12:06:27,721 - INFO - target to 3, will delete from index:['0', '1'].
+2020-01-17 12:06:27,722 - INFO - target to 0, will add index:0.
+2020-01-17 12:06:27,722 - INFO - target to 0, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错'}.
+2020-01-17 12:06:27,722 - INFO - target to 4, will add index:4.
+2020-01-17 12:06:27,722 - INFO - target to 4, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加'}.
+2020-01-17 12:06:27,722 - INFO - target to 5, will add index:5.
+2020-01-17 12:06:27,722 - INFO - target to 5, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加', 5: '您好，已经给您安排简历评估了'}.
+2020-01-17 14:10:51,340 - DEBUG - Building prefix dict from the default dictionary ...
+2020-01-17 14:10:51,341 - DEBUG - Loading model from cache C:\Users\11112877\AppData\Local\Temp\jieba.cache
+2020-01-17 14:10:51,949 - DEBUG - Loading model cost 0.609 seconds.
+2020-01-17 14:10:51,950 - DEBUG - Prefix dict has been built succesfully.
+2020-01-17 14:10:51,950 - INFO - Initializing docs len distribution {'0': 40, '1': 37, '2': 6}.
+2020-01-17 14:10:51,951 - INFO - target to 3, will delete from index:['0', '1'].
+2020-01-17 14:10:51,951 - INFO - target to 0, will add index:0.
+2020-01-17 14:10:51,951 - INFO - target to 0, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错'}.
+2020-01-17 14:10:51,952 - INFO - target to 4, will add index:4.
+2020-01-17 14:10:51,952 - INFO - target to 4, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加'}.
+2020-01-17 14:10:51,957 - INFO - target to 5, will add index:5.
+2020-01-17 14:10:51,957 - INFO - target to 5, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加', 5: '刘备收养寇封为子时，汉怀帝还未出生。'}.
+2020-01-17 14:11:34,126 - DEBUG - Building prefix dict from the default dictionary ...
+2020-01-17 14:11:34,128 - DEBUG - Loading model from cache C:\Users\11112877\AppData\Local\Temp\jieba.cache
+2020-01-17 14:11:34,740 - DEBUG - Loading model cost 0.613 seconds.
+2020-01-17 14:11:34,740 - DEBUG - Prefix dict has been built succesfully.
+2020-01-17 14:11:34,741 - INFO - Initializing docs len distribution {'0': 40, '1': 37, '2': 6}.
+2020-01-17 14:11:34,741 - INFO - target to 3, will delete from index:['0', '1'].
+2020-01-17 14:11:34,742 - INFO - target to 0, will add index:0.
+2020-01-17 14:11:34,742 - INFO - target to 0, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错'}.
+2020-01-17 14:11:34,742 - INFO - target to 4, will add index:4.
+2020-01-17 14:11:34,742 - INFO - target to 4, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加'}.
+2020-01-17 14:11:34,742 - INFO - target to 5, will add index:5.
+2020-01-17 14:11:34,742 - INFO - target to 5, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加', 5: '刘备收养寇封为子时，汉怀帝还未出生。'}.
+2020-01-17 14:11:34,743 - INFO - target to 6, will add index:6.
+2020-01-17 14:11:34,743 - INFO - target to 6, Now docs maintain index:{0: '这个对news.txt文本的编码有什么要求吗?为什么我的运行完是0.0一直到结尾', 2: '今天天气不错', 4: '如果有机会赢，一定参加', 5: '刘备收养寇封为子时，汉怀帝还未出生。', 6: 'Only the owner of this repository can see this message.'}.

@@ -1,0 +1,1 @@
+cd ~/nlpc_local && for cate in `ls /home/liangchengming/research/article_of_poi/category_corpus/data/names.c*`; do cat ${cate} | ./nlpc_wordseg -t segment  > `dirname ${cate}`/segs/`basename ${cate}`.seg; done

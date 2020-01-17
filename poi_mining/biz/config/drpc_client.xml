@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sofa>
+    <runtime>
+        <sidb>cache://65288</sidb>
+        <dlclose_on_unload>false</dlclose_on_unload>
+        <default_thread_num>12</default_thread_num>
+        <rpc>
+            <client>
+                <default_timeout>60000</default_timeout>
+                <work_thread_num>4</work_thread_num>
+                <max_pending_buffer_size>5</max_pending_buffer_size>
+                <max_throughput_in>30</max_throughput_in>
+                <max_throughput_out>30</max_throughput_out>
+            </client>
+        </rpc>
+        <log imp="comlog">
+            <config_path>./config/drpc_client_log.conf</config_path>
+        </log>
+    </runtime>
+    <service>
+        <nlpc_wordseg_3016 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_wordseg_3016</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.wordseg_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_wordseg_3016>
+        <nlpc_wordpos_202 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_wordpos_202</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.wordseg_imp</implement>
+            <implement>nlpc.ver_1_0_0.wordpos_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_wordpos_202>
+        <nlpc_wordrank_208 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_wordrank_208</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.wordseg_imp</implement>
+            <implement>nlpc.ver_1_0_0.wordrank_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_wordrank_208>
+        <nlpc_clicksim_107 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_clicksim_107</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.clicksim_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_clicksim_107>
+        <nlpc_textsim_103 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_textsim_103</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.textsim_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_textsim_103>
+        <nlpc_el_140 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_el_140</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.el_bvc_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_el_140>
+        <nlpc_depparser_query_107 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_depparser_query_107</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.parse_prep_imp</implement>
+            <implement>nlpc.ver_1_0_0.depparser_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_depparser_query_107>
+        <nlpc_depparser_web_107 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_depparser_web_107</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.parse_prep_imp</implement>
+            <implement>nlpc.ver_1_0_0.depparser_web_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_depparser_web_107>
+        <nlpc_wordner_300 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_wordner_300</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.wordner_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_wordner_300>
+        <nlpc_wordner_331 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_wordner_331</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.wordner_3_3_1_0_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_wordner_331>
+        <nlpc_wordnorm_100 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_wordnorm_100</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.wordnorm_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_wordnorm_100>
+        <nlpc_plsa_108 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_plsa_108</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.plsa_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_plsa_108>
+        <nlpc_wordemb_100 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_wordemb_100</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.wordemb_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_wordemb_100>
+        <nlpc_wordemb_neighbor_100 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_wordemb_neighbor_100</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.wordemb_neighbor_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_wordemb_neighbor_100>
+        <nlpc_comment_tag_108 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_comment_tag_108</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.comment_tag_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_comment_tag_108>
+        <nlpc_grnn_sim_100 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_grnn_sim_100</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.grnn_sim_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_grnn_sim_100>
+        <nlpc_coocdict_100 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_coocdict_100</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.coocdict_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_coocdict_100>
+        <nlpc_wordtight_124 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_wordtight_124</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.wordtight_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_wordtight_124>
+        <nlpc_summary_104 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_summary_104</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.summary_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_summary_104>
+        <nlpc_antiporn_1170 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_antiporn_1170</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.antiporn_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_antiporn_1170>
+        <nlpc_el_org_140 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_el_org_140</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.el_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_el_org_140>
+        <nlpc_lang_detector_1020 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_lang_detector_1020</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.lang_detector_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_lang_detector_1020>
+        <nlpc_sentiment_classify_100 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_sentiment_classify_100</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.sentiment_classify_imp</implement>
+            <max_pending_count>1000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_sentiment_classify_100>
+        <nlpc_lmscore_1040 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_lmscore_1040</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.lmscore_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_lmscore_1040>
+        <nlpc_depparser_uni_query_107 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_depparser_uni_query_107</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.depparser_uni_query_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_depparser_uni_query_107>
+        <nlpc_depparser_uni_web_107 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_depparser_uni_web_107</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.depparser_uni_web_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_depparser_uni_web_107>
+        <nlpc_semroler_106 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_semroler_106</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.semroler_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_semroler_106>
+        <nlpc_keyphrase_100 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_keyphrase_100</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.keyphrase_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_keyphrase_100>
+        <nlpc_mse_query_skip_1040 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_mse_query_skip_1040</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.mse_query_skip_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_mse_query_skip_1040>
+        <nlpc_mse_query_cbow_1040 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_mse_query_cbow_1040</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.mse_query_cbow_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_mse_query_cbow_1040>
+        <nlpc_mse_baike_skip_1040 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_mse_baike_skip_1040</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.mse_baike_skip_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_mse_baike_skip_1040>
+        <nlpc_mse_baike_cbow_1040 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_mse_baike_cbow_1040</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.mse_baike_cbow_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_mse_baike_cbow_1040>
+        <nlpc_aspect_extract_100 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_aspect_extract_100</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.aspect_extract_imp</implement>
+            <max_pending_count>10000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_aspect_extract_100>
+        <nlpc_simnet_bow_qq_1099 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_simnet_bow_qq_1099</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.lego_simnet_bow_qq_imp</implement>
+            <max_pending_count>1000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_simnet_bow_qq_1099>
+        <nlpc_simnet_bow_qt_1099 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_simnet_bow_qt_1099</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.lego_simnet_bow_qt_imp</implement>
+            <max_pending_count>1000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_simnet_bow_qt_1099>
+        <nlpc_simnet_grnn_qq_1099 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_simnet_grnn_qq_1099</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.lego_simnet_grnn_qq_imp</implement>
+            <max_pending_count>1000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_simnet_grnn_qq_1099>
+        <nlpc_simnet_grnn_qt_1099 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_simnet_grnn_qt_1099</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.lego_simnet_grnn_qt_imp</implement>
+            <max_pending_count>1000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_simnet_grnn_qt_1099>
+        
+        <nlpc_queryrecall_101 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_queryrecall_101</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.queryrecall_imp</implement>
+            <max_pending_count>1000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_queryrecall_101>
+        <nlpc_timeline_recall_100 imp="imp.drpc.ver_1_0_0.ClientAgentImp">
+            <method_name>nlpc_timeline_recall_100</method_name>
+            <interface>local</interface>
+            <implement>nlpc.ver_1_0_0.timeline_recall_imp</implement>
+            <max_pending_count>1000</max_pending_count>
+            <user_name>changyue</user_name>
+            <app>nlpc_201508311438440</app>
+        </nlpc_timeline_recall_100>
+    </service>
+</sofa>
